@@ -27,7 +27,7 @@ const SingleProduct = ({ alldata, outlet }) => {
             {alldata.stock > 0 ? (
               <div className="details">
                 <Link
-                  onClick={() => handleAddToCart(alldata)} // handleAddToCart fonksiyonu kullanıldı
+                  onClick={() => handleAddToCart(alldata)}
                   className="add-to-cart"
                 >
                   <span>
