@@ -20,14 +20,14 @@ const Basket = () => {
 
     const navigate = useNavigate();
 
-    // Sepete ürün eklenirken login kontrolü yapılmıyor.
+   
     const checkUser = () => {
         const isLogin = localStorage.getItem('login');
         if (isLogin === 'true') {
-            navigate('/checkout'); // Ödeme sayfasına yönlendir
+            navigate('/checkout');
         } else {
-            swal("Uğursuz əməliyyat", "Zəhmət olmasa giriş edin.", "warning"); // Login uyarısı
-            navigate('/login'); // Login sayfasına yönlendir
+            swal("Uğursuz əməliyyat", "Zəhmət olmasa giriş edin.", "warning");
+            navigate('/login'); 
         }
     };
 
@@ -75,7 +75,7 @@ const Basket = () => {
                             <h4 className='total-price'>{lang === "az" ? "Mehsullar" : "Total price "}: {Math.round(cartTotal)}$</h4>
                             <button onClick={() => emptyCart()} className='empty-button'><span>{lang === "az" ? "Hamısını Sil" : "Clear All"}</span></button>
                         </div>
-                        {/* "Buy Now" butonuna tıklandığında login kontrolü yapılır */}
+                     
                         <button className='buy-button' onClick={checkUser}><span>{lang === "az" ? "İndi al" : "Buy Now"}</span></button>
                     </div>
                 </div>
