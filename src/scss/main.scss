@@ -1,0 +1,31 @@
+@import "./pages/home/sectionOne";
+@import "./pages/home/sectionTwo";
+@import "./pages/home/sectionThree";
+@import "./pages/home/sectionFour";
+@import '../scss/pages/home/sectionSix';
+@import "./base/reset";
+// @import "./utils/colors";
+@import "../scss/layout/header";
+@import "../scss/layout/footer";
+@import "../../src/scss/random/notFoundPage";
+@import "../../src/scss/pages/nfts/products.scss";
+@import "../../src/scss/components/ProductDetails.scss";
+@import "../scss/pages/add-to-cart/basket";
+@import "../scss/pages/login/loginPage";
+@import "../scss/pages/login/forgotPassPage";
+@import "../scss/pages/login/registerPage";
+@import "../scss/pages/login/accountPage";
+@import "../scss/pages/login/changePassPage";
+@import "../scss/contact/contact";
+@import "../scss/pages/search";
+@import "../scss/base/light-dark-main";
+@import "../scss/pages/about/about";
+@import "../scss/pages/login/adminAccount";
+@import "../scss/pages/dashboard/dashboard";
+@import "../scss/pages//whislistPage";
+@import "../scss/pages/payment/checkOut";
+@import "../scss/pages/payment/succsessPayment";
+@import "../scss/pages/dashboard/addProductDashboard";
+@import "../scss/pages/dashboard/editProduct";
+
+

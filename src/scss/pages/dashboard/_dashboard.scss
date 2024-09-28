@@ -1,0 +1,48 @@
+.light  {
+    .dashboardPage {
+        background-image: linear-gradient(to right, #ebdefdf0, rgb(152, 156, 239), rgb(107, 118, 243), rgb(21, 30, 119));
+    }
+}
+
+.dark  {
+
+    .dashboardPage {
+        background-image: linear-gradient(to right, #8127fef0, rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    }
+
+}
+
+
+.dashboardPage {
+    width: auto;
+    background-image: linear-gradient(to right, rgba(129, 39, 254, 0.9411764706), rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+
+    h1 {
+        color: #fff;
+        font-family: "Conthrax", sans-serif;
+        margin-bottom: 0;
+        font-size: 47px;
+    }
+
+    .table-dashboard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        table {
+            width: 70%;
+
+            th{
+                color: #fff;
+            }
+
+            tbody{
+                th,td{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

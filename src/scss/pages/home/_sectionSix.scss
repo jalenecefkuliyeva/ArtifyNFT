@@ -1,0 +1,163 @@
+.light  {
+    .section-six {
+        background-image: linear-gradient(to right, #ebdefdf0, rgb(152, 156, 239), rgb(107, 118, 243), rgb(21, 30, 119));
+    }
+}
+
+.dark  {
+
+    .section-six{
+        background-image: linear-gradient(to right, #8127fef0, rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    }
+
+}
+
+
+
+.section-six {
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(129, 39, 254, 0.9411764706), rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section-six-one {
+        width: 100%;
+        height: 15vh;
+
+
+        h3 {
+            font-size: 50px;
+            color: #fff;
+            font-family: "Conthrax", sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            align-items: center;
+        }
+
+
+    }
+
+    .section-six-two {
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .one,
+        .two {
+            color: #fff;
+            font-family: "Readex Pro", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+    }
+
+    .section-six-three {
+        display: flex;
+        height: 75vh;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        box-shadow: none;
+        color: #fff;
+        outline: none;
+        
+        line-height: 1.0;
+        align-items: center;
+      
+        
+
+        .faq {
+            width: 50%;
+          
+            padding: 4px;
+           
+            margin-bottom: 22px;
+            border-top-left-radius: .25rem;
+            border-top-right-radius: .25rem;
+         
+            
+
+            .item {
+               padding: 4px 25px;
+               margin: 0px 0px 12px;
+
+               border-radius: 3px;
+               background: linear-gradient(264.28deg, #492a75 -38.2%, #25067b 103.12%);
+
+
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    font-family: "Conthrax", sans-serif;
+
+                    h2{
+                        font-size: 19px;
+                    }
+
+                    .plus-icon{
+                      font-size: 20px;
+                    }
+
+                    .minus-icon{
+                        font-size: 20px;
+                      }
+
+                }
+
+                .content {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+                }
+
+                .content.show {
+                    height: auto;
+                    max-height: 9999px;
+                    transition: all 0.6s cubic-bezier(1, 0, 1, 0);
+
+                    border-radius: 5px;
+               
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    body {
+        overflow-x: hidden;
+        /* Yatay daşmanı önləyir */
+    }
+}
+@media(max-width: 400px){
+ .section-six{
+    width: auto;
+    height: 190vh;
+    justify-content: space-evenly;
+ }
+}
+
+@media(max-width: 1025px){
+    .section-six .section-six-three{
+        height: 30vh;
+    }
+    .section-six .section-six-three .faq{
+        width: 100%;
+    }
+}

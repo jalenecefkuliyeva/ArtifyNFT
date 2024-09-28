@@ -1,0 +1,45 @@
+.light {
+    .addProductPage {
+        background-image: linear-gradient(to right, #ebdefdf0, rgb(152, 156, 239), rgb(107, 118, 243), rgb(21, 30, 119));
+    }
+}
+
+.dark {
+
+    .addProductPage {
+        background-image: linear-gradient(to right, #8127fef0, rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    }
+
+}
+
+
+
+
+
+
+.addProductPage {
+    width: auto;
+    background-image: linear-gradient(to right, rgba(129, 39, 254, 0.9411764706), rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+
+        color: #fff;
+        font-family: "Conthrax", sans-serif;
+        font-size: 50px;
+      
+
+    }
+
+    form{
+        width: 55%;
+        label{
+            color: #fff;
+        }
+    }
+}

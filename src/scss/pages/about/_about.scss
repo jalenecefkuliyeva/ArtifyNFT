@@ -1,0 +1,110 @@
+.light  {
+    .about-page {
+        background-image: linear-gradient(to right, #ebdefdf0, rgb(152, 156, 239), rgb(107, 118, 243), rgb(21, 30, 119));
+    }
+}
+
+.dark  {
+
+    .about-page {
+        background-image: linear-gradient(to right, #8127fef0, rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    }
+
+}
+
+
+
+.about-page{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, #8127fef0, rgb(15, 19, 85), rgb(7, 10, 41), rgb(5, 7, 31));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   
+
+    h1{
+        color: #fff;
+        font-family: 'Conthrax', sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+      
+    }
+
+    .second-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+       
+        width: 100%;
+
+        iframe{
+            border-radius: 25px;
+        }
+
+        .text-page{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        padding: 53px;
+            width: 100%;
+          
+
+            button{
+                border-radius: 10px;
+                padding: 15px;
+                color: #fff;
+                font-family: 'Conthrax', sans-serif;
+                font-weight: 700;
+                line-height: 1.2;
+                background-color: rgba(74, 14, 133, 0.814);
+                border: none;
+            }
+
+            p{
+                color: #fff;
+               
+            }
+        }
+    }
+
+    .third-page{
+        video{
+            border-radius: 13px;
+            width: 100%;
+        }
+    }
+
+}
+
+.second-page .map-page{
+    width: 100%;
+}
+
+@media(max-width: 900px){
+    .about-page .second-page{
+        flex-direction: column;
+        width: 100%;
+    }
+
+  
+}
+
+
+.seond-page .map-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+}
